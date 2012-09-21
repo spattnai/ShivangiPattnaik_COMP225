@@ -7,7 +7,7 @@ Project Title: Shopping List
 Project Details
 ---------------
 
-In this project, I have built an android application for creating a shopping list. The shopping list helps you list the itemname, quantity and price of the items you want to buy before going to the store. This application comes handy in situations when you have multiple items to buy and can be well used for grocery shopping.
+In this project, I have built an android application for creating a shopping list. The shopping list helps you list the itemname and quantity of the items you want to buy before going to the store. This application comes handy in situations when you have multiple items to buy and can be well used for grocery shopping.
 
 Building the application
 ------------------------
