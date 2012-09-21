@@ -1,14 +1,39 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:id="@+id/background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:text="@string/hello_world"
-        tools:context=".ShoppingList" />
+        tools:context=".ShoppingList"  />
+    <LinearLayout android:id="@+id/total_panel"
+ 		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		
+	</LinearLayout>
+ 	<LinearLayout android:id="@+id/add_panel"
+ 		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<AutoCompleteTextView android:id="@+id/autocomplete_add_item"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dip"
+			android:layout_weight="1"/>
+		<Button android:id="@+id/button_add_item"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 				
+			android:text="@string/add_label" />
+	</LinearLayout>
+    
+    	
+    
+  	</LinearLayout>
+	
 
-</RelativeLayout>
